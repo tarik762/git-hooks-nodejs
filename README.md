@@ -18,6 +18,7 @@ in package.json needs add folowing:
 __Or__
 - npm install -D husky
 in package.json add folowing:
+
     "husky": {
         "hooks": {
             "pre-commit" : "npm test"
