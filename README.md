@@ -8,14 +8,18 @@ Required module for test is JEST
 
 __Two modules for automate test->commit__
 ***
-- npm install -D pre-commit
-
-in package.json needs add folowing 
+- npm install -D pre-commit:
+in package.json needs add folowing:
 
     "pre-commit": [
        "test"
-    ] >
+    ]
 
-or
-
+__Or__
 - npm install -D husky
+in package.json add folowing:
+    "husky": {
+        "hooks": {
+            "pre-commit" : "npm test"
+        }
+    }
