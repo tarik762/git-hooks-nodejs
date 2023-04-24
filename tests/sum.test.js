@@ -1,7 +1,7 @@
-import sum from "../src/sum.js";
-import { assert, expect, test, it } from 'vitest'
+import { expect, it } from 'vitest';
+import sum from '../src/sum';
 
-it("Should returns correct sum", () => {
-    const result = sum(2,5);
-    expect(result).toBe(7);
-})
+it('Should returns correct sum', () => {
+  const result = sum(2, 5);
+  expect(result).toBe(7);
+});
