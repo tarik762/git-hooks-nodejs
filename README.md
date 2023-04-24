@@ -22,5 +22,23 @@ __Or__
 adding a hook
 - npx husky add .husky/pre-commit "npm test"
 
+but jest understand only commonJS (modules import ex.)
+
+__Or__
+
+- npm install -D vite vitest
+
+add to tests 
+
+```
+    import { assert, expect, test, it } from 'vitest'
+```
+
+update _package.json_
+
+```
+    "test": "vitest run",
+```
+
 ***
 
