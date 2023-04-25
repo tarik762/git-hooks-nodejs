@@ -64,3 +64,11 @@ add to husky
 ```
     npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 ```
+
+## SUMMARY
+
+enter 
+```
+    npm install
+```
+after cloning this repository
