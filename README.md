@@ -53,3 +53,6 @@ update _package.json_
 ```
     npm install -D eslint eslint-plugin-import eslint-config-airbnb-bas
 ```
+***
+
+## COMMIT-LINT
