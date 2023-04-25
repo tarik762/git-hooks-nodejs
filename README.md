@@ -7,6 +7,8 @@ Required module for test is JEST
 ```
     npm install -D jest
 ```
+but jest understand only commonJS (modules import ex.)
+
 __Two modules for automate test->commit__
 ***
 ```
@@ -28,7 +30,6 @@ adding a hook
 ```
     npx husky add .husky/pre-commit "npm test"
 ```
-but jest understand only commonJS (modules import ex.)
 
 __Or__
 ```
