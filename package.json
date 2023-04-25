@@ -1,7 +1,7 @@
 {
   "name": "git-hooks-nodejs",
   "version": "1.0.0",
-  "description": "- This is my example, how to aumate git hooks with node.js (and additional packages)",
+  "description": "- This is my example, how to automate git hooks with node.js (and additional packages)",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -17,7 +17,14 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
     "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
     "vite": "^4.3.1",
     "vitest": "^0.30.1"
+  },
+  "lint-staged":{
+    "*.js": [
+      "eslint",
+      "vitest run"
+    ]
   }
 }
