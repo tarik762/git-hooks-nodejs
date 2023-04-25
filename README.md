@@ -25,7 +25,6 @@ __Or__
 ```
 
 adding a hook
-
 ```
     npx husky add .husky/pre-commit "npm test"
 ```
