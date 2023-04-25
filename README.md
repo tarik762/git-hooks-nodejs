@@ -56,3 +56,11 @@ update _package.json_
 ***
 
 ## COMMIT-LINT
+installing
+```
+    npm install -D @commitlint/cli
+```
+add to husky
+```
+    npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+```
